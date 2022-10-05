@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4FCB528EC997E006E5F3F /* EvenoApp.swift */; };
+		9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4FCB728EC997E006E5F3F /* ContentView.swift */; };
+		9ED4FCBA28EC9980006E5F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCB928EC9980006E5F3F /* Assets.xcassets */; };
+		9ED4FCBD28EC9980006E5F3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCBC28EC9980006E5F3F /* Preview Assets.xcassets */; };
+		9ED4FCC728EC9C0C006E5F3F /* begin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4FCC628EC9C0C006E5F3F /* begin.swift */; };
+		9ED4FCE928EDA0DB006E5F3F /* Urbanist-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCD228EDA0DB006E5F3F /* Urbanist-VariableFont_wght.ttf */; };
+		9ED4FCEA28EDA0DB006E5F3F /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCD428EDA0DB006E5F3F /* Urbanist-Bold.ttf */; };
+		9ED4FCEB28EDA0DB006E5F3F /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCD528EDA0DB006E5F3F /* Urbanist-Regular.ttf */; };
+		9ED4FCEC28EDA0DB006E5F3F /* Urbanist-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCD628EDA0DB006E5F3F /* Urbanist-LightItalic.ttf */; };
+		9ED4FCED28EDA0DB006E5F3F /* Urbanist-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCD728EDA0DB006E5F3F /* Urbanist-ExtraLightItalic.ttf */; };
+		9ED4FCEE28EDA0DB006E5F3F /* Urbanist-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCD828EDA0DB006E5F3F /* Urbanist-ExtraBoldItalic.ttf */; };
+		9ED4FCEF28EDA0DB006E5F3F /* Urbanist-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCD928EDA0DB006E5F3F /* Urbanist-Thin.ttf */; };
+		9ED4FCF028EDA0DB006E5F3F /* Urbanist-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCDA28EDA0DB006E5F3F /* Urbanist-MediumItalic.ttf */; };
+		9ED4FCF128EDA0DB006E5F3F /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCDB28EDA0DB006E5F3F /* Urbanist-SemiBold.ttf */; };
+		9ED4FCF228EDA0DB006E5F3F /* Urbanist-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCDC28EDA0DB006E5F3F /* Urbanist-Italic.ttf */; };
+		9ED4FCF328EDA0DB006E5F3F /* Urbanist-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCDD28EDA0DB006E5F3F /* Urbanist-Black.ttf */; };
+		9ED4FCF428EDA0DB006E5F3F /* Urbanist-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCDE28EDA0DB006E5F3F /* Urbanist-BlackItalic.ttf */; };
+		9ED4FCF528EDA0DB006E5F3F /* Urbanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCDF28EDA0DB006E5F3F /* Urbanist-Light.ttf */; };
+		9ED4FCF628EDA0DB006E5F3F /* Urbanist-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE028EDA0DB006E5F3F /* Urbanist-SemiBoldItalic.ttf */; };
+		9ED4FCF728EDA0DB006E5F3F /* Urbanist-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE128EDA0DB006E5F3F /* Urbanist-BoldItalic.ttf */; };
+		9ED4FCF828EDA0DB006E5F3F /* Urbanist-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE228EDA0DB006E5F3F /* Urbanist-ExtraBold.ttf */; };
+		9ED4FCF928EDA0DB006E5F3F /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE328EDA0DB006E5F3F /* Urbanist-Medium.ttf */; };
+		9ED4FCFA28EDA0DB006E5F3F /* Urbanist-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE428EDA0DB006E5F3F /* Urbanist-ExtraLight.ttf */; };
+		9ED4FCFB28EDA0DB006E5F3F /* Urbanist-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE528EDA0DB006E5F3F /* Urbanist-ThinItalic.ttf */; };
+		9ED4FCFC28EDA0DB006E5F3F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE628EDA0DB006E5F3F /* OFL.txt */; };
+		9ED4FCFD28EDA0DB006E5F3F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE728EDA0DB006E5F3F /* README.txt */; };
+		9ED4FCFE28EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE828EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9ED4FCB228EC997E006E5F3F /* Eveno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eveno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED4FCB528EC997E006E5F3F /* EvenoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenoApp.swift; sourceTree = "<group>"; };
+		9ED4FCB728EC997E006E5F3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9ED4FCB928EC9980006E5F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ED4FCBC28EC9980006E5F3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9ED4FCC628EC9C0C006E5F3F /* begin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = begin.swift; sourceTree = "<group>"; };
+		9ED4FCD228EDA0DB006E5F3F /* Urbanist-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		9ED4FCD428EDA0DB006E5F3F /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		9ED4FCD528EDA0DB006E5F3F /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Regular.ttf"; sourceTree = "<group>"; };
+		9ED4FCD628EDA0DB006E5F3F /* Urbanist-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-LightItalic.ttf"; sourceTree = "<group>"; };
+		9ED4FCD728EDA0DB006E5F3F /* Urbanist-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		9ED4FCD828EDA0DB006E5F3F /* Urbanist-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		9ED4FCD928EDA0DB006E5F3F /* Urbanist-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Thin.ttf"; sourceTree = "<group>"; };
+		9ED4FCDA28EDA0DB006E5F3F /* Urbanist-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-MediumItalic.ttf"; sourceTree = "<group>"; };
+		9ED4FCDB28EDA0DB006E5F3F /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
+		9ED4FCDC28EDA0DB006E5F3F /* Urbanist-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Italic.ttf"; sourceTree = "<group>"; };
+		9ED4FCDD28EDA0DB006E5F3F /* Urbanist-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Black.ttf"; sourceTree = "<group>"; };
+		9ED4FCDE28EDA0DB006E5F3F /* Urbanist-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9ED4FCDF28EDA0DB006E5F3F /* Urbanist-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Light.ttf"; sourceTree = "<group>"; };
+		9ED4FCE028EDA0DB006E5F3F /* Urbanist-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		9ED4FCE128EDA0DB006E5F3F /* Urbanist-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9ED4FCE228EDA0DB006E5F3F /* Urbanist-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9ED4FCE328EDA0DB006E5F3F /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Medium.ttf"; sourceTree = "<group>"; };
+		9ED4FCE428EDA0DB006E5F3F /* Urbanist-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraLight.ttf"; sourceTree = "<group>"; };
+		9ED4FCE528EDA0DB006E5F3F /* Urbanist-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ThinItalic.ttf"; sourceTree = "<group>"; };
+		9ED4FCE628EDA0DB006E5F3F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		9ED4FCE728EDA0DB006E5F3F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		9ED4FCE828EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		9ED4FCFF28EDA3C2006E5F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ED4FCAF28EC997E006E5F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ED4FCA928EC997E006E5F3F = {
+			isa = PBXGroup;
+			children = (
+				9ED4FCB428EC997E006E5F3F /* Eveno */,
+				9ED4FCB328EC997E006E5F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ED4FCB328EC997E006E5F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ED4FCB228EC997E006E5F3F /* Eveno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ED4FCB428EC997E006E5F3F /* Eveno */ = {
+			isa = PBXGroup;
+			children = (
+				9ED4FCFF28EDA3C2006E5F3F /* Info.plist */,
+				9ED4FCC528EC9B47006E5F3F /* Model */,
+				9ED4FCC428EC9B40006E5F3F /* ViewModel */,
+				9ED4FCC328EC9B3A006E5F3F /* View */,
+				9ED4FCB528EC997E006E5F3F /* EvenoApp.swift */,
+				9ED4FCB728EC997E006E5F3F /* ContentView.swift */,
+				9ED4FCB928EC9980006E5F3F /* Assets.xcassets */,
+				9ED4FCD128EDA0DB006E5F3F /* Urbanist */,
+				9ED4FCBB28EC9980006E5F3F /* Preview Content */,
+			);
+			path = Eveno;
+			sourceTree = "<group>";
+		};
+		9ED4FCBB28EC9980006E5F3F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9ED4FCBC28EC9980006E5F3F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9ED4FCC328EC9B3A006E5F3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9ED4FCCF28ECC9DA006E5F3F /* Utiles */,
+				9ED4FCCC28ECC863006E5F3F /* Home */,
+				9ED4FCCB28ECC811006E5F3F /* ForgotReset */,
+				9ED4FCCA28ECC7C8006E5F3F /* SetUpAccount */,
+				9ED4FCC928ECC794006E5F3F /* Autentification */,
+				9ED4FCC628EC9C0C006E5F3F /* begin.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9ED4FCC428EC9B40006E5F3F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9ED4FCC528EC9B47006E5F3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9ED4FCC928ECC794006E5F3F /* Autentification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Autentification;
+			sourceTree = "<group>";
+		};
+		9ED4FCCA28ECC7C8006E5F3F /* SetUpAccount */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SetUpAccount;
+			sourceTree = "<group>";
+		};
+		9ED4FCCB28ECC811006E5F3F /* ForgotReset */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgotReset;
+			sourceTree = "<group>";
+		};
+		9ED4FCCC28ECC863006E5F3F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9ED4FCCE28ECC872006E5F3F /* Search+Filter */,
+				9ED4FCCD28ECC86A006E5F3F /* Notification */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9ED4FCCD28ECC86A006E5F3F /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		9ED4FCCE28ECC872006E5F3F /* Search+Filter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Search+Filter";
+			sourceTree = "<group>";
+		};
+		9ED4FCCF28ECC9DA006E5F3F /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+				9ED4FCD028ECC9E9006E5F3F /* Buttons */,
+			);
+			path = Utiles;
+			sourceTree = "<group>";
+		};
+		9ED4FCD028ECC9E9006E5F3F /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		9ED4FCD128EDA0DB006E5F3F /* Urbanist */ = {
+			isa = PBXGroup;
+			children = (
+				9ED4FCD228EDA0DB006E5F3F /* Urbanist-VariableFont_wght.ttf */,
+				9ED4FCD328EDA0DB006E5F3F /* static */,
+				9ED4FCE628EDA0DB006E5F3F /* OFL.txt */,
+				9ED4FCE728EDA0DB006E5F3F /* README.txt */,
+				9ED4FCE828EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf */,
+			);
+			path = Urbanist;
+			sourceTree = "<group>";
+		};
+		9ED4FCD328EDA0DB006E5F3F /* static */ = {
+			isa = PBXGroup;
+			children = (
+				9ED4FCD428EDA0DB006E5F3F /* Urbanist-Bold.ttf */,
+				9ED4FCD528EDA0DB006E5F3F /* Urbanist-Regular.ttf */,
+				9ED4FCD628EDA0DB006E5F3F /* Urbanist-LightItalic.ttf */,
+				9ED4FCD728EDA0DB006E5F3F /* Urbanist-ExtraLightItalic.ttf */,
+				9ED4FCD828EDA0DB006E5F3F /* Urbanist-ExtraBoldItalic.ttf */,
+				9ED4FCD928EDA0DB006E5F3F /* Urbanist-Thin.ttf */,
+				9ED4FCDA28EDA0DB006E5F3F /* Urbanist-MediumItalic.ttf */,
+				9ED4FCDB28EDA0DB006E5F3F /* Urbanist-SemiBold.ttf */,
+				9ED4FCDC28EDA0DB006E5F3F /* Urbanist-Italic.ttf */,
+				9ED4FCDD28EDA0DB006E5F3F /* Urbanist-Black.ttf */,
+				9ED4FCDE28EDA0DB006E5F3F /* Urbanist-BlackItalic.ttf */,
+				9ED4FCDF28EDA0DB006E5F3F /* Urbanist-Light.ttf */,
+				9ED4FCE028EDA0DB006E5F3F /* Urbanist-SemiBoldItalic.ttf */,
+				9ED4FCE128EDA0DB006E5F3F /* Urbanist-BoldItalic.ttf */,
+				9ED4FCE228EDA0DB006E5F3F /* Urbanist-ExtraBold.ttf */,
+				9ED4FCE328EDA0DB006E5F3F /* Urbanist-Medium.ttf */,
+				9ED4FCE428EDA0DB006E5F3F /* Urbanist-ExtraLight.ttf */,
+				9ED4FCE528EDA0DB006E5F3F /* Urbanist-ThinItalic.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ED4FCB128EC997E006E5F3F /* Eveno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED4FCC028EC9980006E5F3F /* Build configuration list for PBXNativeTarget "Eveno" */;
+			buildPhases = (
+				9ED4FCAE28EC997E006E5F3F /* Sources */,
+				9ED4FCAF28EC997E006E5F3F /* Frameworks */,
+				9ED4FCB028EC997E006E5F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eveno;
+			productName = Eveno;
+			productReference = 9ED4FCB228EC997E006E5F3F /* Eveno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ED4FCAA28EC997E006E5F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9ED4FCB128EC997E006E5F3F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9ED4FCAD28EC997E006E5F3F /* Build configuration list for PBXProject "Eveno" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ED4FCA928EC997E006E5F3F;
+			productRefGroup = 9ED4FCB328EC997E006E5F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ED4FCB128EC997E006E5F3F /* Eveno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ED4FCB028EC997E006E5F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED4FCEF28EDA0DB006E5F3F /* Urbanist-Thin.ttf in Resources */,
+				9ED4FCF628EDA0DB006E5F3F /* Urbanist-SemiBoldItalic.ttf in Resources */,
+				9ED4FCF128EDA0DB006E5F3F /* Urbanist-SemiBold.ttf in Resources */,
+				9ED4FCF228EDA0DB006E5F3F /* Urbanist-Italic.ttf in Resources */,
+				9ED4FCF028EDA0DB006E5F3F /* Urbanist-MediumItalic.ttf in Resources */,
+				9ED4FCF328EDA0DB006E5F3F /* Urbanist-Black.ttf in Resources */,
+				9ED4FCFD28EDA0DB006E5F3F /* README.txt in Resources */,
+				9ED4FCF928EDA0DB006E5F3F /* Urbanist-Medium.ttf in Resources */,
+				9ED4FCEE28EDA0DB006E5F3F /* Urbanist-ExtraBoldItalic.ttf in Resources */,
+				9ED4FCF728EDA0DB006E5F3F /* Urbanist-BoldItalic.ttf in Resources */,
+				9ED4FCF828EDA0DB006E5F3F /* Urbanist-ExtraBold.ttf in Resources */,
+				9ED4FCFB28EDA0DB006E5F3F /* Urbanist-ThinItalic.ttf in Resources */,
+				9ED4FCED28EDA0DB006E5F3F /* Urbanist-ExtraLightItalic.ttf in Resources */,
+				9ED4FCFC28EDA0DB006E5F3F /* OFL.txt in Resources */,
+				9ED4FCBD28EC9980006E5F3F /* Preview Assets.xcassets in Resources */,
+				9ED4FCBA28EC9980006E5F3F /* Assets.xcassets in Resources */,
+				9ED4FCE928EDA0DB006E5F3F /* Urbanist-VariableFont_wght.ttf in Resources */,
+				9ED4FCEC28EDA0DB006E5F3F /* Urbanist-LightItalic.ttf in Resources */,
+				9ED4FCEA28EDA0DB006E5F3F /* Urbanist-Bold.ttf in Resources */,
+				9ED4FCFA28EDA0DB006E5F3F /* Urbanist-ExtraLight.ttf in Resources */,
+				9ED4FCF428EDA0DB006E5F3F /* Urbanist-BlackItalic.ttf in Resources */,
+				9ED4FCF528EDA0DB006E5F3F /* Urbanist-Light.ttf in Resources */,
+				9ED4FCEB28EDA0DB006E5F3F /* Urbanist-Regular.ttf in Resources */,
+				9ED4FCFE28EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ED4FCAE28EC997E006E5F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED4FCC728EC9C0C006E5F3F /* begin.swift in Sources */,
+				9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */,
+				9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9ED4FCBE28EC9980006E5F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ED4FCBF28EC9980006E5F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ED4FCC128EC9980006E5F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eveno/Preview Content\"";
+				DEVELOPMENT_TEAM = YV2MS7RRD5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eveno/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathis.Eveno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ED4FCC228EC9980006E5F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eveno/Preview Content\"";
+				DEVELOPMENT_TEAM = YV2MS7RRD5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eveno/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathis.Eveno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ED4FCAD28EC997E006E5F3F /* Build configuration list for PBXProject "Eveno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED4FCBE28EC9980006E5F3F /* Debug */,
+				9ED4FCBF28EC9980006E5F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED4FCC028EC9980006E5F3F /* Build configuration list for PBXNativeTarget "Eveno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED4FCC128EC9980006E5F3F /* Debug */,
+				9ED4FCC228EC9980006E5F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ED4FCAA28EC997E006E5F3F /* Project object */;
+}
