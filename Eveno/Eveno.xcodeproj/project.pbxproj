@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E9BC40828F47BDA0029EB1C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BC40728F47BDA0029EB1C /* CustomTextField.swift */; };
 		9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4FCB528EC997E006E5F3F /* EvenoApp.swift */; };
 		9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4FCB728EC997E006E5F3F /* ContentView.swift */; };
 		9ED4FCBA28EC9980006E5F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCB928EC9980006E5F3F /* Assets.xcassets */; };
@@ -35,11 +36,11 @@
 		9ED4FCFD28EDA0DB006E5F3F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE728EDA0DB006E5F3F /* README.txt */; };
 		9ED4FCFE28EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE828EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf */; };
 		AC63508228F08FAC00664BC3 /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63508128F08FAC00664BC3 /* Signin.swift */; };
-		AC63508428F0900700664BC3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63508328F0900700664BC3 /* CustomTextField.swift */; };
 		AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75FD1128EE1DA50082A575 /* Signup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E9BC40728F47BDA0029EB1C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		9ED4FCB228EC997E006E5F3F /* Eveno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eveno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED4FCB528EC997E006E5F3F /* EvenoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenoApp.swift; sourceTree = "<group>"; };
 		9ED4FCB728EC997E006E5F3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		9ED4FCE828EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		9ED4FCFF28EDA3C2006E5F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC63508128F08FAC00664BC3 /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
-		AC63508328F0900700664BC3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = Eveno/View/CustomTextField.swift; sourceTree = SOURCE_ROOT; };
 		AC75FD1128EE1DA50082A575 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +113,7 @@
 				9ED4FCB928EC9980006E5F3F /* Assets.xcassets */,
 				9ED4FCD128EDA0DB006E5F3F /* Urbanist */,
 				9ED4FCBB28EC9980006E5F3F /* Preview Content */,
+				9E9BC40728F47BDA0029EB1C /* CustomTextField.swift */,
 			);
 			path = Eveno;
 			sourceTree = "<group>";
@@ -134,8 +135,6 @@
 				9ED4FCCA28ECC7C8006E5F3F /* SetUpAccount */,
 				9ED4FCC928ECC794006E5F3F /* Autentification */,
 				9ED4FCC628EC9C0C006E5F3F /* begin.swift */,
-				AC75FD1128EE1DA50082A575 /* Signup.swift */,
-				AC63508128F08FAC00664BC3 /* Signin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +156,8 @@
 		9ED4FCC928ECC794006E5F3F /* Autentification */ = {
 			isa = PBXGroup;
 			children = (
+				AC75FD1128EE1DA50082A575 /* Signup.swift */,
+				AC63508128F08FAC00664BC3 /* Signin.swift */,
 			);
 			path = Autentification;
 			sourceTree = "<group>";
@@ -209,7 +210,6 @@
 		9ED4FCD028ECC9E9006E5F3F /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				AC63508328F0900700664BC3 /* CustomTextField.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -343,9 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9BC40828F47BDA0029EB1C /* CustomTextField.swift in Sources */,
 				9ED4FCC728EC9C0C006E5F3F /* begin.swift in Sources */,
 				AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */,
-				AC63508428F0900700664BC3 /* CustomTextField.swift in Sources */,
 				9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */,
 				9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */,
 				AC63508228F08FAC00664BC3 /* Signin.swift in Sources */,
