@@ -16,7 +16,7 @@ struct begin: View {
                 Image(systemName: "arrow.left")
                 .frame(maxWidth:.infinity,alignment: .leading)
             
-            Image("image")
+            Image("illustration-3")
                 .resizable()
                 .aspectRatio( contentMode: .fill)
                 .frame(width:size.width/2,height:size.width/2)
