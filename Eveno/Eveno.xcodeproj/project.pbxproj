@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E7D3FA028F4BB1B00896D09 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3F9F28F4BB1B00896D09 /* CustomToggle.swift */; };
+		9E7D3FA228F4BCAE00896D09 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FA128F4BCAE00896D09 /* NotificationViewModel.swift */; };
+		9E7D3FA528F5640300896D09 /* CustomButtonPurple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FA428F5640300896D09 /* CustomButtonPurple.swift */; };
+		9E7D3FA728F5694A00896D09 /* ExempleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FA628F5694A00896D09 /* ExempleButton.swift */; };
+		9E7D3FAA28F56BA900896D09 /* CustomButtonClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FA928F56BA900896D09 /* CustomButtonClear.swift */; };
 		9E9BC40828F47BDA0029EB1C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BC40728F47BDA0029EB1C /* CustomTextField.swift */; };
 		9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4FCB528EC997E006E5F3F /* EvenoApp.swift */; };
 		9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4FCB728EC997E006E5F3F /* ContentView.swift */; };
@@ -40,6 +45,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E7D3F9F28F4BB1B00896D09 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		9E7D3FA128F4BCAE00896D09 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationViewModel.swift; path = Eveno/NotificationViewModel.swift; sourceTree = SOURCE_ROOT; };
+		9E7D3FA428F5640300896D09 /* CustomButtonPurple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonPurple.swift; sourceTree = "<group>"; };
+		9E7D3FA628F5694A00896D09 /* ExempleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExempleButton.swift; sourceTree = "<group>"; };
+		9E7D3FA928F56BA900896D09 /* CustomButtonClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonClear.swift; sourceTree = "<group>"; };
 		9E9BC40728F47BDA0029EB1C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		9ED4FCB228EC997E006E5F3F /* Eveno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eveno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED4FCB528EC997E006E5F3F /* EvenoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenoApp.swift; sourceTree = "<group>"; };
@@ -85,6 +95,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E7D3FA328F563B100896D09 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9E7D3FA828F5694D00896D09 /* Button */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9E7D3FA828F5694D00896D09 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				9E7D3FA628F5694A00896D09 /* ExempleButton.swift */,
+				9E7D3FA428F5640300896D09 /* CustomButtonPurple.swift */,
+				9E7D3FA928F56BA900896D09 /* CustomButtonClear.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		9ED4FCA928EC997E006E5F3F = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +132,7 @@
 		9ED4FCB428EC997E006E5F3F /* Eveno */ = {
 			isa = PBXGroup;
 			children = (
+				9E7D3FA328F563B100896D09 /* UI */,
 				9ED4FCFF28EDA3C2006E5F3F /* Info.plist */,
 				9ED4FCC528EC9B47006E5F3F /* Model */,
 				9ED4FCC428EC9B40006E5F3F /* ViewModel */,
@@ -114,6 +143,7 @@
 				9ED4FCD128EDA0DB006E5F3F /* Urbanist */,
 				9ED4FCBB28EC9980006E5F3F /* Preview Content */,
 				9E9BC40728F47BDA0029EB1C /* CustomTextField.swift */,
+				9E7D3F9F28F4BB1B00896D09 /* CustomToggle.swift */,
 			);
 			path = Eveno;
 			sourceTree = "<group>";
@@ -142,6 +172,7 @@
 		9ED4FCC428EC9B40006E5F3F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9E7D3FA128F4BCAE00896D09 /* NotificationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -343,11 +374,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7D3FA528F5640300896D09 /* CustomButtonPurple.swift in Sources */,
+				9E7D3FA028F4BB1B00896D09 /* CustomToggle.swift in Sources */,
+				9E7D3FAA28F56BA900896D09 /* CustomButtonClear.swift in Sources */,
+				9E7D3FA228F4BCAE00896D09 /* NotificationViewModel.swift in Sources */,
 				9E9BC40828F47BDA0029EB1C /* CustomTextField.swift in Sources */,
 				9ED4FCC728EC9C0C006E5F3F /* begin.swift in Sources */,
 				AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */,
 				9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */,
 				9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */,
+				9E7D3FA728F5694A00896D09 /* ExempleButton.swift in Sources */,
 				AC63508228F08FAC00664BC3 /* Signin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
