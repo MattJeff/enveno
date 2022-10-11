@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E7D3FCA28F6057E00896D09 /* ExempleTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FC928F6057E00896D09 /* ExempleTextModifier.swift */; };
+		9E7D3FCD28F60CB400896D09 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FCC28F60CB400896D09 /* extensions.swift */; };
+		9E7D3FCF28F60CC700896D09 /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FCE28F60CC700896D09 /* enum.swift */; };
+		9E7D3FD128F60CD700896D09 /* modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FD028F60CD700896D09 /* modifier.swift */; };
 		9E9BC40828F47BDA0029EB1C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BC40728F47BDA0029EB1C /* CustomTextField.swift */; };
 		9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4FCB528EC997E006E5F3F /* EvenoApp.swift */; };
 		9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4FCB728EC997E006E5F3F /* ContentView.swift */; };
@@ -40,6 +44,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E7D3FC928F6057E00896D09 /* ExempleTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExempleTextModifier.swift; sourceTree = "<group>"; };
+		9E7D3FCC28F60CB400896D09 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		9E7D3FCE28F60CC700896D09 /* enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
+		9E7D3FD028F60CD700896D09 /* modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modifier.swift; sourceTree = "<group>"; };
 		9E9BC40728F47BDA0029EB1C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		9ED4FCB228EC997E006E5F3F /* Eveno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eveno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED4FCB528EC997E006E5F3F /* EvenoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenoApp.swift; sourceTree = "<group>"; };
@@ -85,6 +93,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E7D3FCB28F60CA400896D09 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9E7D3FD228F6166400896D09 /* Text */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9E7D3FD228F6166400896D09 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				9E7D3FD028F60CD700896D09 /* modifier.swift */,
+				9E7D3FCE28F60CC700896D09 /* enum.swift */,
+				9E7D3FCC28F60CB400896D09 /* extensions.swift */,
+				9E7D3FC928F6057E00896D09 /* ExempleTextModifier.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
 		9ED4FCA928EC997E006E5F3F = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +131,7 @@
 		9ED4FCB428EC997E006E5F3F /* Eveno */ = {
 			isa = PBXGroup;
 			children = (
+				9E7D3FCB28F60CA400896D09 /* Utils */,
 				9ED4FCFF28EDA3C2006E5F3F /* Info.plist */,
 				9ED4FCC528EC9B47006E5F3F /* Model */,
 				9ED4FCC428EC9B40006E5F3F /* ViewModel */,
@@ -346,8 +374,12 @@
 				9E9BC40828F47BDA0029EB1C /* CustomTextField.swift in Sources */,
 				9ED4FCC728EC9C0C006E5F3F /* begin.swift in Sources */,
 				AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */,
+				9E7D3FCD28F60CB400896D09 /* extensions.swift in Sources */,
+				9E7D3FD128F60CD700896D09 /* modifier.swift in Sources */,
 				9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */,
+				9E7D3FCF28F60CC700896D09 /* enum.swift in Sources */,
 				9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */,
+				9E7D3FCA28F6057E00896D09 /* ExempleTextModifier.swift in Sources */,
 				AC63508228F08FAC00664BC3 /* Signin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
