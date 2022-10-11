@@ -10,6 +10,7 @@ import SwiftUI
 struct begin: View {
     
     var size = UIScreen.main.bounds
+    @ObservedObject var notification = NotificationViewModel()
     var body: some View {
         VStack{
         
