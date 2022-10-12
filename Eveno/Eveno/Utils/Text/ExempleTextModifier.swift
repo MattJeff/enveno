@@ -21,9 +21,10 @@ struct ExempleTextModifier: View {
                             }
                             Divider()
                         }
-                    }
+                    }.padding(.top,50)
                 }
-            }.padding()
+                .padding()
+            }.ignoresSafeArea()
         }
     }
 }
