@@ -11,7 +11,8 @@ import SwiftUI
 struct EvenoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            Signin()
         }
     }
 }
