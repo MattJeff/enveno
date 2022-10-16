@@ -46,6 +46,7 @@
 		D94437F428F9273100F44D2B /* CustomButtonForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437F328F9273100F44D2B /* CustomButtonForgotPassword.swift */; };
 		D94437F628F974BB00F44D2B /* IconRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437F528F974BB00F44D2B /* IconRounded.swift */; };
 		D94437FA28FA033100F44D2B /* ReplaceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437F928FA033100F44D2B /* ReplaceString.swift */; };
+		D94437FC28FC5D1A00F44D2B /* OTPVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437FB28FC5D1A00F44D2B /* OTPVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		D94437F328F9273100F44D2B /* CustomButtonForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonForgotPassword.swift; sourceTree = "<group>"; };
 		D94437F528F974BB00F44D2B /* IconRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconRounded.swift; sourceTree = "<group>"; };
 		D94437F928FA033100F44D2B /* ReplaceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceString.swift; sourceTree = "<group>"; };
+		D94437FB28FC5D1A00F44D2B /* OTPVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				D94437F128F8C9DC00F44D2B /* ForgotPassword.swift */,
+				D94437FB28FC5D1A00F44D2B /* OTPVIew.swift */,
 			);
 			name = ForgotReset;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				9E7D3FAA28F56BA900896D09 /* CustomButtonClear.swift in Sources */,
 				9E7D3FA228F4BCAE00896D09 /* NotificationViewModel.swift in Sources */,
 				9E9BC40828F47BDA0029EB1C /* CustomTextField.swift in Sources */,
+				D94437FC28FC5D1A00F44D2B /* OTPVIew.swift in Sources */,
 				9ED4FCC728EC9C0C006E5F3F /* begin.swift in Sources */,
 				AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */,
 				9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */,
