@@ -13,7 +13,6 @@ struct begin: View {
     @ObservedObject var notification = NotificationViewModel()
     var body: some View {
         VStack{
-        
                 Image(systemName: "arrow.left")
                 .frame(maxWidth:.infinity,alignment: .leading)
             
