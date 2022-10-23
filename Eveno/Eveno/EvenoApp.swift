@@ -12,7 +12,8 @@ struct EvenoApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            Signin()
+            //Signin()
+            OTPVIew()
         }
     }
 }

@@ -42,10 +42,13 @@
 		9ED4FCFE28EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE828EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf */; };
 		AC63508228F08FAC00664BC3 /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63508128F08FAC00664BC3 /* Signin.swift */; };
 		AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75FD1128EE1DA50082A575 /* Signup.swift */; };
+		D92D55852904511C00BD7750 /* EnumOPTField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D55842904511C00BD7750 /* EnumOPTField.swift */; };
 		D94437F228F8C9DC00F44D2B /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437F128F8C9DC00F44D2B /* ForgotPassword.swift */; };
 		D94437F428F9273100F44D2B /* CustomButtonForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437F328F9273100F44D2B /* CustomButtonForgotPassword.swift */; };
 		D94437F628F974BB00F44D2B /* IconRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437F528F974BB00F44D2B /* IconRounded.swift */; };
 		D94437FA28FA033100F44D2B /* ReplaceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437F928FA033100F44D2B /* ReplaceString.swift */; };
+		D94437FC28FC5D1A00F44D2B /* OTPVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437FB28FC5D1A00F44D2B /* OTPVIew.swift */; };
+		D944380028FD61AF00F44D2B /* OPTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437FF28FD61AF00F44D2B /* OPTViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,10 +89,13 @@
 		9ED4FCFF28EDA3C2006E5F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC63508128F08FAC00664BC3 /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
 		AC75FD1128EE1DA50082A575 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		D92D55842904511C00BD7750 /* EnumOPTField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumOPTField.swift; sourceTree = "<group>"; };
 		D94437F128F8C9DC00F44D2B /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 		D94437F328F9273100F44D2B /* CustomButtonForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonForgotPassword.swift; sourceTree = "<group>"; };
 		D94437F528F974BB00F44D2B /* IconRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconRounded.swift; sourceTree = "<group>"; };
 		D94437F928FA033100F44D2B /* ReplaceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceString.swift; sourceTree = "<group>"; };
+		D94437FB28FC5D1A00F44D2B /* OTPVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVIew.swift; sourceTree = "<group>"; };
+		D94437FF28FD61AF00F44D2B /* OPTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPTViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				9E7D3FA128F4BCAE00896D09 /* NotificationViewModel.swift */,
+				D94437FF28FD61AF00F44D2B /* OPTViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -214,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				D94437F128F8C9DC00F44D2B /* ForgotPassword.swift */,
+				D94437FB28FC5D1A00F44D2B /* OTPVIew.swift */,
 			);
 			name = ForgotReset;
 			sourceTree = "<group>";
@@ -246,6 +254,7 @@
 			children = (
 				9ED4FCD028ECC9E9006E5F3F /* Buttons */,
 				D94437F928FA033100F44D2B /* ReplaceString.swift */,
+				D92D55842904511C00BD7750 /* EnumOPTField.swift */,
 			);
 			name = Utiles;
 			sourceTree = "<group>";
@@ -388,10 +397,12 @@
 			files = (
 				9E7D3FA528F5640300896D09 /* CustomButtonPurple.swift in Sources */,
 				D94437FA28FA033100F44D2B /* ReplaceString.swift in Sources */,
+				D944380028FD61AF00F44D2B /* OPTViewModel.swift in Sources */,
 				9E7D3FA028F4BB1B00896D09 /* CustomToggle.swift in Sources */,
 				9E7D3FAA28F56BA900896D09 /* CustomButtonClear.swift in Sources */,
 				9E7D3FA228F4BCAE00896D09 /* NotificationViewModel.swift in Sources */,
 				9E9BC40828F47BDA0029EB1C /* CustomTextField.swift in Sources */,
+				D94437FC28FC5D1A00F44D2B /* OTPVIew.swift in Sources */,
 				9ED4FCC728EC9C0C006E5F3F /* begin.swift in Sources */,
 				AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */,
 				9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */,
@@ -399,6 +410,7 @@
 				D94437F428F9273100F44D2B /* CustomButtonForgotPassword.swift in Sources */,
 				9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */,
 				9E7D3FA728F5694A00896D09 /* ExempleButton.swift in Sources */,
+				D92D55852904511C00BD7750 /* EnumOPTField.swift in Sources */,
 				AC63508228F08FAC00664BC3 /* Signin.swift in Sources */,
 				D94437F228F8C9DC00F44D2B /* ForgotPassword.swift in Sources */,
 			);
