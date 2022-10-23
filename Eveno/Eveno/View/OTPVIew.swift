@@ -30,25 +30,25 @@ struct OTPVIew: View {
             .font(.custom("Urbanist", size: 18))
             .fontWeight(.regular)
             
-                .padding(.top, 60)
-                .padding(.bottom, 99)
+            .padding(.top, 60)
+            .padding(.bottom, 99)
             Button {
                 //
             } label: {
                 CustomButtonPurple(isDisbled: checkState(), title: "Continue", isRounded: false, isChekout: false)
             }.disabled(checkState())
-
+            
         }.padding(24)
-        .onChange(of: optVm.optTextField) { newValue in
-            optCondition(value: newValue)
-        }
-        .onReceive(timer) { time in
-            if timeremaining > 0 {
-                timeremaining -= 1
-            } else {
-                //
+            .onChange(of: optVm.optTextField) { newValue in
+                optCondition(value: newValue)
             }
-        }
+            .onReceive(timer) { time in
+                if timeremaining > 0 {
+                    timeremaining -= 1
+                } else {
+                    //
+                }
+            }
         
     }
     
@@ -87,23 +87,18 @@ struct OTPVIew: View {
         HStack(spacing: 14) {
             ForEach(0..<4, id: \.self) { index in
                 VStack(spacing: 8){
-                    ZStack{
-                            
-                        TextField("", text: $optVm.optTextField[index])
-                            .font(.custom("Urbanist-Bold", size: 24))
-                            .keyboardType(.numberPad)
-                            .textContentType(.oneTimeCode)
-                            .multilineTextAlignment(.center)
-                            .focused($activedField, equals: activeStateForIndex(index: index))
-                            .accentColor(activedField == activeStateForIndex(index: index)  ? Color("primary").opacity(0.5): Color("200"))
-                            .frame(width:83, height: 61)
-                            .background(RoundedRectangle(cornerRadius: 16).stroke(activedField == activeStateForIndex(index: index)  ? Color("primary").opacity(0.5): Color("200"), lineWidth: 1))
-                            .background(activedField == activeStateForIndex(index: index)  ? Color("primary").opacity(0.1): Color("200"))
-                            .cornerRadius(16)
-                            .foregroundColor(Color("900"))
-                          
-                            
-                    }
+                    TextField("", text: $optVm.optTextField[index])
+                        .font(.custom("Urbanist-Bold", size: 24))
+                        .keyboardType(.numberPad)
+                        .textContentType(.oneTimeCode)
+                        .multilineTextAlignment(.center)
+                        .focused($activedField, equals: activeStateForIndex(index: index))
+                        .accentColor(activedField == activeStateForIndex(index: index)  ? Color("primary").opacity(0.5): Color("200"))
+                        .frame(width:83, height: 61)
+                        .background(RoundedRectangle(cornerRadius: 16).stroke(activedField == activeStateForIndex(index: index)  ? Color("primary").opacity(0.5): Color("200"), lineWidth: 1))
+                        .background(activedField == activeStateForIndex(index: index)  ? Color("primary").opacity(0.1): Color("200"))
+                        .cornerRadius(16)
+                        .foregroundColor(Color("900"))
                 }
             }
         }
@@ -112,11 +107,11 @@ struct OTPVIew: View {
     func activeStateForIndex(index: Int) -> OPTField {
         print(index)
         switch index {
-            case 0: return .field1
-            case 1: return .field2
-            case 2: return .field3
-            case 3: return .field4
-            default: return .field4
+        case 0: return .field1
+        case 1: return .field2
+        case 2: return .field3
+        case 3: return .field4
+        default: return .field4
         }
     }
 }
