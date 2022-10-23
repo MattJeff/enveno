@@ -17,7 +17,7 @@ struct ExempleTextModifier: View {
                             ForEach(Urbanistfont.allCases){font in
                                 
                                 Text(font.rawValue + " - " + "\(size.rawValue)pt")
-                                    .modifier(TextSizeModifier(size: size, Ufont: font))
+                                    .myFont(size:size,font:font)
                             }
                             Divider()
                         }

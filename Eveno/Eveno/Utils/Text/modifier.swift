@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 struct TextSizeModifier: ViewModifier {
+    
     var size:TextSize
     var Ufont:Urbanistfont
     
@@ -58,3 +59,17 @@ struct TextSizeModifier: ViewModifier {
             
     }
 }
+
+
+extension View{
+    
+    func myFont(size:TextSize,font:Urbanistfont)-> some View{
+        
+        self.modifier(TextSizeModifier(size: size, Ufont: font))
+            
+            
+    }
+    
+}
+
+
