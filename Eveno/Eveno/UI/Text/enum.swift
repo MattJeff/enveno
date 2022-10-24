@@ -26,7 +26,7 @@ enum TextSize:String,CaseIterable,Identifiable{
     case h3 = "32"
     case h4 = "24"
     case h5 = "20"
-    case h6 = "18"
+    case h6 = "17"
     case bodyXLarge = ".18"
     case bodyLarge = "16"
     case bodyMedium = "14"
@@ -35,3 +35,22 @@ enum TextSize:String,CaseIterable,Identifiable{
   
 }
 
+
+
+enum Menue:String,CaseIterable,Identifiable{
+    var id: Self { self }
+    case ManageEvents = "Manage Events"
+    case MessageCenter = "Message Center"
+    case Profile = "Profile"
+    case Notification = "Notification"
+    case Payments = "Payments"
+    case LinkedAccounts = "Linked Accounts"
+    case TicketIssues = "Ticket Issues"
+    case Security = "Security"
+    case Language = "Language"
+    case DarkMode = "Dark Mode"
+    case HelpCenter = "Help Center"
+    case InviteFriends = "Invite Friends"
+    case Rateus = "Rate us"
+    case Logout = "Logout"
+}
