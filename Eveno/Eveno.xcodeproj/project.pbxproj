@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E0550192906F4DD005911CA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0550182906F4DD005911CA /* ProfileView.swift */; };
+		9E05501C2906F6C1005911CA /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05501B2906F6C1005911CA /* enum.swift */; };
+		9E05501F2906F6FA005911CA /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05501E2906F6FA005911CA /* Modifier.swift */; };
 		9E7D3FA028F4BB1B00896D09 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3F9F28F4BB1B00896D09 /* CustomToggle.swift */; };
 		9E7D3FA228F4BCAE00896D09 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FA128F4BCAE00896D09 /* NotificationViewModel.swift */; };
 		9E7D3FA528F5640300896D09 /* CustomButtonPurple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FA428F5640300896D09 /* CustomButtonPurple.swift */; };
@@ -52,6 +55,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E0550182906F4DD005911CA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9E05501B2906F6C1005911CA /* enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
+		9E05501E2906F6FA005911CA /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 		9E7D3F9F28F4BB1B00896D09 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		9E7D3FA128F4BCAE00896D09 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationViewModel.swift; path = Eveno/NotificationViewModel.swift; sourceTree = SOURCE_ROOT; };
 		9E7D3FA428F5640300896D09 /* CustomButtonPurple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonPurple.swift; sourceTree = "<group>"; };
@@ -109,9 +115,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E0550172906F4C7005911CA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9E0550182906F4DD005911CA /* ProfileView.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		9E05501A2906F6B3005911CA /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				9E05501B2906F6C1005911CA /* enum.swift */,
+				9E05501E2906F6FA005911CA /* Modifier.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
 		9E7D3FA328F563B100896D09 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				9E05501A2906F6B3005911CA /* Text */,
 				9E7D3FA828F5694D00896D09 /* Button */,
 				D94437F528F974BB00F44D2B /* IconRounded.swift */,
 			);
@@ -175,6 +199,7 @@
 		9ED4FCC328EC9B3A006E5F3F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9E0550172906F4C7005911CA /* Profile */,
 				9ED4FCCF28ECC9DA006E5F3F /* Utiles */,
 				9ED4FCCC28ECC863006E5F3F /* Home */,
 				9ED4FCCB28ECC811006E5F3F /* ForgotReset */,
@@ -405,14 +430,17 @@
 				D94437FC28FC5D1A00F44D2B /* OTPVIew.swift in Sources */,
 				9ED4FCC728EC9C0C006E5F3F /* begin.swift in Sources */,
 				AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */,
+				9E05501C2906F6C1005911CA /* enum.swift in Sources */,
 				9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */,
 				D94437F628F974BB00F44D2B /* IconRounded.swift in Sources */,
 				D94437F428F9273100F44D2B /* CustomButtonForgotPassword.swift in Sources */,
 				9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */,
 				9E7D3FA728F5694A00896D09 /* ExempleButton.swift in Sources */,
 				D92D55852904511C00BD7750 /* EnumOPTField.swift in Sources */,
+				9E0550192906F4DD005911CA /* ProfileView.swift in Sources */,
 				AC63508228F08FAC00664BC3 /* Signin.swift in Sources */,
 				D94437F228F8C9DC00F44D2B /* ForgotPassword.swift in Sources */,
+				9E05501F2906F6FA005911CA /* Modifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
