@@ -12,6 +12,11 @@
 		9E05501F2906F6FA005911CA /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05501E2906F6FA005911CA /* Modifier.swift */; };
 		9E0550222906FD52005911CA /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0550212906FD52005911CA /* MenuCell.swift */; };
 		9E0550252907029A005911CA /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0550242907029A005911CA /* MenuView.swift */; };
+		9E055028290713F3005911CA /* NotificationCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E055027290713F3005911CA /* NotificationCenterView.swift */; };
+		9E05502A29071401005911CA /* NotificationCenterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05502929071401005911CA /* NotificationCenterCell.swift */; };
+		9E05502C290844F4005911CA /* RootMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05502B290844F4005911CA /* RootMenuView.swift */; };
+		9E05502F2909231F005911CA /* Header+back.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05502E2909231F005911CA /* Header+back.swift */; };
+		9E055032290996F8005911CA /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E055031290996F8005911CA /* EditProfileView.swift */; };
 		9E7D3FA028F4BB1B00896D09 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3F9F28F4BB1B00896D09 /* CustomToggle.swift */; };
 		9E7D3FA228F4BCAE00896D09 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FA128F4BCAE00896D09 /* NotificationViewModel.swift */; };
 		9E7D3FA528F5640300896D09 /* CustomButtonPurple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D3FA428F5640300896D09 /* CustomButtonPurple.swift */; };
@@ -62,6 +67,11 @@
 		9E05501E2906F6FA005911CA /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 		9E0550212906FD52005911CA /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		9E0550242907029A005911CA /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9E055027290713F3005911CA /* NotificationCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterView.swift; sourceTree = "<group>"; };
+		9E05502929071401005911CA /* NotificationCenterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterCell.swift; sourceTree = "<group>"; };
+		9E05502B290844F4005911CA /* RootMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootMenuView.swift; sourceTree = "<group>"; };
+		9E05502E2909231F005911CA /* Header+back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Header+back.swift"; sourceTree = "<group>"; };
+		9E055031290996F8005911CA /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		9E7D3F9F28F4BB1B00896D09 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		9E7D3FA128F4BCAE00896D09 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationViewModel.swift; path = Eveno/NotificationViewModel.swift; sourceTree = SOURCE_ROOT; };
 		9E7D3FA428F5640300896D09 /* CustomButtonPurple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonPurple.swift; sourceTree = "<group>"; };
@@ -140,6 +150,8 @@
 		9E0550202906FD3E005911CA /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				9E055030290996E7005911CA /* EditProfile */,
+				9E055026290713DC005911CA /* NotificationCenter */,
 				9E0550232907027E005911CA /* MenuView */,
 				9E0550212906FD52005911CA /* MenuCell.swift */,
 			);
@@ -150,13 +162,40 @@
 			isa = PBXGroup;
 			children = (
 				9E0550242907029A005911CA /* MenuView.swift */,
+				9E05502B290844F4005911CA /* RootMenuView.swift */,
 			);
 			name = MenuView;
+			sourceTree = "<group>";
+		};
+		9E055026290713DC005911CA /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9E055027290713F3005911CA /* NotificationCenterView.swift */,
+				9E05502929071401005911CA /* NotificationCenterCell.swift */,
+			);
+			name = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		9E05502D2909230F005911CA /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				9E05502E2909231F005911CA /* Header+back.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		9E055030290996E7005911CA /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				9E055031290996F8005911CA /* EditProfileView.swift */,
+			);
+			name = EditProfile;
 			sourceTree = "<group>";
 		};
 		9E7D3FA328F563B100896D09 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				9E05502D2909230F005911CA /* Header */,
 				9E05501A2906F6B3005911CA /* Text */,
 				9E7D3FA828F5694D00896D09 /* Button */,
 				D94437F528F974BB00F44D2B /* IconRounded.swift */,
@@ -448,23 +487,28 @@
 				D944380028FD61AF00F44D2B /* OPTViewModel.swift in Sources */,
 				9E7D3FA028F4BB1B00896D09 /* CustomToggle.swift in Sources */,
 				9E7D3FAA28F56BA900896D09 /* CustomButtonClear.swift in Sources */,
+				9E05502F2909231F005911CA /* Header+back.swift in Sources */,
+				9E05502A29071401005911CA /* NotificationCenterCell.swift in Sources */,
 				9E7D3FA228F4BCAE00896D09 /* NotificationViewModel.swift in Sources */,
 				9E9BC40828F47BDA0029EB1C /* CustomTextField.swift in Sources */,
 				D94437FC28FC5D1A00F44D2B /* OTPVIew.swift in Sources */,
 				9ED4FCC728EC9C0C006E5F3F /* begin.swift in Sources */,
 				AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */,
 				9E05501C2906F6C1005911CA /* enum.swift in Sources */,
+				9E055032290996F8005911CA /* EditProfileView.swift in Sources */,
 				9ED4FCB828EC997E006E5F3F /* ContentView.swift in Sources */,
 				D94437F628F974BB00F44D2B /* IconRounded.swift in Sources */,
 				D94437F428F9273100F44D2B /* CustomButtonForgotPassword.swift in Sources */,
 				9ED4FCB628EC997E006E5F3F /* EvenoApp.swift in Sources */,
 				9E7D3FA728F5694A00896D09 /* ExempleButton.swift in Sources */,
 				9E0550222906FD52005911CA /* MenuCell.swift in Sources */,
+				9E055028290713F3005911CA /* NotificationCenterView.swift in Sources */,
 				D92D55852904511C00BD7750 /* EnumOPTField.swift in Sources */,
 				9E0550192906F4DD005911CA /* ProfileView.swift in Sources */,
 				AC63508228F08FAC00664BC3 /* Signin.swift in Sources */,
 				D94437F228F8C9DC00F44D2B /* ForgotPassword.swift in Sources */,
 				9E05501F2906F6FA005911CA /* Modifier.swift in Sources */,
+				9E05502C290844F4005911CA /* RootMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

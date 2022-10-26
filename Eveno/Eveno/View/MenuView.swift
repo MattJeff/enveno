@@ -28,7 +28,7 @@ struct MenuView: View {
                         
                     }else{
                         NavigationLink {
-                            Text(element.rawValue)
+                            RootMenuView(title:element.rawValue).navigationBarHidden(true)
                         } label: {
                             MenuCell(image:element.rawValue,title:element.rawValue)
                         }
