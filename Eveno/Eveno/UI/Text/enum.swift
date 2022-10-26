@@ -54,3 +54,19 @@ enum Menue:String,CaseIterable,Identifiable{
     case Rateus = "Rate us"
     case Logout = "Logout"
 }
+
+
+enum NotificationCenter:String,CaseIterable,Identifiable{
+    var id: Self { self }
+    case EnableSoundVibrate = "Enable Sound & Vibrate"
+    case PurchasedTickets = "Purchased Tickets"
+    case LikedEvents = "Liked Events"
+    case FollowedOrganizer = "Followed Organizer"
+    case SpecialOffers = "Special Offers"
+    case Payments = "Payments"
+    case Reminders = "Reminders"
+    case Recommendations = "Recommendations"
+    case AppUpdates = "App Updates"
+    case NewServiceAvailable = "New Service Available"
+    case NewTipsAvailable = "New Tips Available"
+}
