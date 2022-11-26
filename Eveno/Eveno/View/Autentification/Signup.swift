@@ -12,6 +12,7 @@ struct Signup: View {
     @State private var password:String = ""
     @State private var toggleRemember = false
     @State var selected = "facebook"
+    
     var logo = ["facebook","apple","google"]
     var size = UIScreen.main.bounds
 
@@ -26,7 +27,7 @@ struct Signup: View {
             Text("Create New Account")
                 .bold()
                 .font(.title)
-            CustomTextField(text: $email, placeholder: "Email", image: "Message")
+            CustomTextField(text: $email, placeholder: "Email", image: "Message", secure: false)
                 .padding(.top)
             
             CustomTextField(text: $password, placeholder: "Password", image: "Lock", secure: true)
