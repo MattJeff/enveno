@@ -52,6 +52,7 @@
 		9ED4FCFE28EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED4FCE828EDA0DB006E5F3F /* Urbanist-Italic-VariableFont_wght.ttf */; };
 		AC63508228F08FAC00664BC3 /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63508128F08FAC00664BC3 /* Signin.swift */; };
 		AC75FD1228EE1DA50082A575 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75FD1128EE1DA50082A575 /* Signup.swift */; };
+		D91D6B1C292F477A008A9ACA /* CreateNewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91D6B1B292F4779008A9ACA /* CreateNewPasswordView.swift */; };
 		D92D55852904511C00BD7750 /* EnumOPTField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D55842904511C00BD7750 /* EnumOPTField.swift */; };
 		D94437F228F8C9DC00F44D2B /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437F128F8C9DC00F44D2B /* ForgotPassword.swift */; };
 		D94437F428F9273100F44D2B /* CustomButtonForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94437F328F9273100F44D2B /* CustomButtonForgotPassword.swift */; };
@@ -109,6 +110,7 @@
 		9ED4FCFF28EDA3C2006E5F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC63508128F08FAC00664BC3 /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
 		AC75FD1128EE1DA50082A575 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		D91D6B1B292F4779008A9ACA /* CreateNewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPasswordView.swift; sourceTree = "<group>"; };
 		D92D55842904511C00BD7750 /* EnumOPTField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumOPTField.swift; sourceTree = "<group>"; };
 		D94437F128F8C9DC00F44D2B /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 		D94437F328F9273100F44D2B /* CustomButtonForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonForgotPassword.swift; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 			children = (
 				D94437F128F8C9DC00F44D2B /* ForgotPassword.swift */,
 				D94437FB28FC5D1A00F44D2B /* OTPVIew.swift */,
+				D91D6B1B292F4779008A9ACA /* CreateNewPasswordView.swift */,
 			);
 			name = ForgotReset;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91D6B1C292F477A008A9ACA /* CreateNewPasswordView.swift in Sources */,
 				9E0550252907029A005911CA /* MenuView.swift in Sources */,
 				9E7D3FA528F5640300896D09 /* CustomButtonPurple.swift in Sources */,
 				D94437FA28FA033100F44D2B /* ReplaceString.swift in Sources */,

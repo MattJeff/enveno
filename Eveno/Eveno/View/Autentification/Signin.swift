@@ -25,7 +25,7 @@ struct Signin: View {
                 Text("Login to Your Account")
                     .bold()
                     .font(.title)
-                CustomTextField(text: $email, placeholder: "Email", image: "envelope.fill")
+                CustomTextField(text: $email, placeholder: "Email", image: "envelope.fill", secure: false)
                     .padding(.top)
                 CustomTextField(text: $password, placeholder: "Password", image: "lock.fill", secure: true)
                 

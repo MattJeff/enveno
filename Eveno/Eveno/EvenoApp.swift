@@ -13,7 +13,8 @@ struct EvenoApp: App {
         WindowGroup {
             //ContentView()
             //Signin()
-            OTPVIew()
+            //OTPVIew()
+            CreateNewPasswordView()
         }
     }
 }
